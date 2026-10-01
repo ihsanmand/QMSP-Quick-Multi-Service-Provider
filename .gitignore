@@ -1,0 +1,94 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor settings
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets and credentials
+secrets/
+credentials/
+credentials.json
+service-account*.json
+*.secret
+*.secrets
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.pkcs12
+id_rsa
+id_ed25519
+
+# Android signing
+android/key.properties
+*.jks
+*.keystore
+
+# Node dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js output
+.next/
+out/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Flutter and Dart artifacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build outputs
+build/
+dist/
+.gradle/
+
+# Mobile packages
+*.apk
+*.aab
+
+# Coverage
+coverage/
+.coverage
+htmlcov/
+lcov.info
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# Logs
+*.log
