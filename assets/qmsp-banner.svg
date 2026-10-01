@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">QMSP - Quick Multi Service Provider</title>
+  <desc id="desc">A secure multi-platform local services workflow</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#17304c" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="360" fill="#07111f"/>
+  <rect width="1280" height="360" fill="url(#grid)" opacity=".44"/>
+  <rect x="76" y="66" width="106" height="106" rx="8" fill="#0d1e31" stroke="#22d3ee" stroke-width="2"/>
+  <path d="M105 103h48v19h-48zm0 31h31v19h-31z" fill="none" stroke="url(#line)" stroke-width="5" stroke-linejoin="round"/>
+  <text x="216" y="126" fill="#edf8ff" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700">QMSP</text>
+  <text x="218" y="172" fill="#8bdcf2" font-family="Segoe UI, Arial, sans-serif" font-size="25">Quick Multi Service Provider</text>
+  <text x="79" y="238" fill="#b4c4d5" font-family="Segoe UI, Arial, sans-serif" font-size="20">A controlled marketplace workflow across web and Android</text>
+  <g font-family="Consolas, monospace" font-size="16" fill="#93a9bc">
+    <text x="80" y="298">REQUEST</text>
+    <text x="294" y="298">OFFER</text>
+    <text x="486" y="298">ACCEPTANCE</text>
+    <text x="754" y="298">BOOKING</text>
+    <text x="966" y="298">LIFECYCLE</text>
+  </g>
+  <path d="M171 292h94m97 0h95m135 0h132m102 0h111" stroke="url(#line)" stroke-width="3"/>
+  <g fill="#22d3ee">
+    <circle cx="170" cy="292" r="5"/><circle cx="265" cy="292" r="5"/>
+    <circle cx="361" cy="292" r="5"/><circle cx="457" cy="292" r="5"/>
+    <circle cx="591" cy="292" r="5"/><circle cx="724" cy="292" r="5"/>
+    <circle cx="825" cy="292" r="5"/><circle cx="937" cy="292" r="5"/>
+  </g>
+</svg>
