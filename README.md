@@ -8,6 +8,14 @@
 
 > This public repository documents the problem, workflow, architectural boundaries, technology choices, and selected engineering evidence. The complete implementation, internal contracts, operational configuration, security controls, and production data remain private.
 
+## Live Platform
+
+- **Public website:** [qmsp.getandfix.com](https://qmsp.getandfix.com)
+- **Web access:** the public landing page leads to role-secured customer, provider, and administrative sign-in experiences.
+- **Android access:** current Android distribution information is provided through the live website.
+
+The deployment demonstrates the working product experience without making the private implementation, internal API contracts, production credentials, or user data public.
+
 ## Product Problem
 
 Customers need a structured way to find suitable local service providers, compare proposals, coordinate an appointment, and maintain accountability through the work lifecycle.
@@ -166,7 +174,7 @@ See [Architecture Overview](./docs/architecture-overview.md) for the intentional
 
 ## Project Status
 
-QMSP is an actively developed software-engineering project. Public documentation is published selectively after privacy and security review.
+QMSP is an actively developed and deployed software-engineering project. Its public website is available at [qmsp.getandfix.com](https://qmsp.getandfix.com), while source code and operational details remain private. Public documentation is published selectively after privacy and security review.
 
 ## Author
 
